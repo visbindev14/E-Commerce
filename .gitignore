@@ -1,0 +1,50 @@
+# =======================
+# FRONTEND (React/Node)
+# =======================
+frontend/ecommercefrontend/node_modules/
+frontend/ecommercefrontend/.env
+frontend/ecommercefrontend/.pnp
+frontend/ecommercefrontend/.pnp.js
+frontend/ecommercefrontend/coverage/
+frontend/ecommercefrontend/build/
+frontend/ecommercefrontend/dist/
+
+# local env variations
+frontend/ecommercefrontend/.env.local
+frontend/ecommercefrontend/.env.development.local
+frontend/ecommercefrontend/.env.test.local
+frontend/ecommercefrontend/.env.production.local
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =======================
+# BACKEND (Django)
+# =======================
+backend/env/
+backend/EcommerceBackend/__pycache__/
+backend/EcommerceBackend/*.pyc
+backend/EcommerceBackend/db.sqlite3
+backend/EcommerceBackend/media/
+backend/EcommerceBackend/staticfiles/
+backend/EcommerceBackend/.env
+
+# =======================
+# General / IDE / OS
+# =======================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.log
+*.bak
+*.tmp
+*.cache
+
+# Test coverage (if backend testing coverage exists)
+htmlcov/
+coverage/

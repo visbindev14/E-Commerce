@@ -1,0 +1,28 @@
+
+.px-large {
+    padding-left: 10rem !important;
+}
+.custom-h3{
+    font-size: 2.8rem !important;
+    font-weight: 500 !important;
+}
+
+.subtitle2{
+    font-weight: 500 !important;
+}
+
+@media (max-width: 1280px) {
+    .px-large {
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+    .custom-h3{
+        font-size: 2.4rem !important;
+        font-weight: 500 !important;
+    }
+   
+}
+
+a:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  }
